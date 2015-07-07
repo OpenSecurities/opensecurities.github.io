@@ -4,7 +4,7 @@ define({ "api": [
     "url": "/v1/version/protected",
     "title": "Auth-protected API version",
     "name": "GetProtectedVersion",
-    "description": "<p>Returns the same content as GetVersion, but behind is auth-protected. This is useful for testing/validating auth mechanisms.</p> ",
+    "description": "<p>Returns the same content as GetVersion, but is auth-protected. This is useful for testing/validating auth mechanisms.</p> ",
     "group": "Version",
     "success": {
       "fields": {
