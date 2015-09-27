@@ -21,7 +21,7 @@
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "{\n    \"location\": \"https://api.example.com/v1/stocks/AAPL\n}",
+          "content": "{\n    \"location\": \"https://api.example.com/v1/stocks/AAPL\"\n}",
           "type": "json"
         }
       ]
