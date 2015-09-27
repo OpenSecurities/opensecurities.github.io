@@ -1,13 +1,13 @@
 define({
   "title": "OpenSecurities API",
   "name": "OpenSecurities API",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An open REST API for pulling financial data in a standard format.",
   "sampleUrl": false,
   "apidoc": "0.2.0",
   "generator": {
     "name": "apidoc",
-    "time": "2015-09-27T17:45:07.212Z",
+    "time": "2015-09-27T17:49:04.082Z",
     "url": "http://apidocjs.com",
     "version": "0.13.1"
   }
