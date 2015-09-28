@@ -117,6 +117,47 @@
     "name": "NewStock",
     "description": "<p>Creates a new stock if it does not already exist. Otherwise it updates the existing stock.</p> ",
     "group": "Stocks",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "<p>String</p> ",
+            "optional": false,
+            "field": "symbol",
+            "description": "<p>The stock ticker symbol</p> "
+          },
+          {
+            "group": "Parameter",
+            "type": "<p>String</p> ",
+            "optional": true,
+            "field": "name",
+            "description": "<p>The long name of the stock</p> "
+          },
+          {
+            "group": "Parameter",
+            "type": "<p>String</p> ",
+            "optional": true,
+            "field": "cik",
+            "description": "<p>The SEC CIK number</p> "
+          },
+          {
+            "group": "Parameter",
+            "type": "<p>String</p> ",
+            "optional": true,
+            "field": "exchange",
+            "description": "<p>The exchange the stock is traded on</p> "
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Request-Example:",
+          "content": "{\n    \"symbol\": \"AAPL\",\n    \"name\": \"Apple Inc.\",\n    \"cik\": \"0000320193\",\n    \"exchange\": \"NASDAQ\"\n}",
+          "type": "json"
+        }
+      ]
+    },
     "success": {
       "fields": {
         "Success 200": [
